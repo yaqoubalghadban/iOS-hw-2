@@ -21,6 +21,7 @@ struct ContentView: View {
     @State var c5 = 0
     @State var amount = 0.0
     @State var money = ""
+    @State var men = "menu"
     var body: some View {
         
         VStack{
@@ -38,7 +39,7 @@ struct ContentView: View {
                     .frame(width: 120, height: 120)
                     .scaledToFit()
                 
-                Text("menu")
+                Text(men)
                     .font(.title)
                     .fontWeight(.regular)
                 HStack{
@@ -142,23 +143,30 @@ struct ContentView: View {
                             let p5 = Cola * Double(c5)
                             amount = p1 + p2 + p3 + p4 + p5
                             
+                            if (amount <= Double(money) ?? 0){
+                                men = "تم اللطلب ،بالعافيه"
+                            }//if
+                            else{
+                                    men = "اسف ،زيد فلوسك"
+                                }//else
+                            
+                        
                         }//on tap
-                    
+                        
                     Text("المبلغ الاجمالي:\(amount,specifier: "%.2f")")
                     
-                    
-                    
-                    
+                   
                 }//g
             }//vstack1
         }//scroll
         .padding()
     }
-}
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
             .previewDevice("iPhone 11")
     }
+}
 }
