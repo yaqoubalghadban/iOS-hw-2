@@ -43,7 +43,7 @@ struct ContentView: View {
                     .fontWeight(.regular)
                 HStack{
                     Stepper("\(c1) ", value: $c1,in: 0...12)
-                
+                Spacer()
                     VStack{
                     Text("box master")
                     Text("3.5 KD")
@@ -62,7 +62,7 @@ struct ContentView: View {
                 
                 HStack{
                     Stepper("\(c3) ", value: $c3,in: 0...12)
-                    
+                    Spacer()
                     VStack{
                     Text("mighty zinger")
                     Text("2.5 KD")
@@ -77,8 +77,9 @@ struct ContentView: View {
                 
                 HStack{
                     Stepper("\(c4)", value: $c4,in: 0...12)
+                    Spacer()
                     VStack{
-                    
+            
                     Text("zinger")
                         Text("1.5 KD")
                         .font(.headline)
@@ -91,6 +92,7 @@ struct ContentView: View {
                 
                 HStack{
                     Stepper("\(c5) ", value: $c5,in: 0...12)
+                    Spacer()
                     VStack{
                    
                     Text("popcorn")
@@ -106,6 +108,7 @@ struct ContentView: View {
                 
                 HStack{
                     Stepper("\(c2)", value: $c2,in: 0...12)
+                    Spacer()
                     VStack{
                     
                     Text("cola")
