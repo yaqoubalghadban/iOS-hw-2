@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCC2C2D327DE17FA00E04835 /* KFCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC2C2D227DE17FA00E04835 /* KFCApp.swift */; };
+		DCC2C2D527DE17FA00E04835 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC2C2D427DE17FA00E04835 /* ContentView.swift */; };
+		DCC2C2D727DE17FC00E04835 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC2C2D627DE17FC00E04835 /* Assets.xcassets */; };
+		DCC2C2DA27DE17FC00E04835 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC2C2D927DE17FC00E04835 /* Preview Assets.xcassets */; };
+		DCC2C2E427DE17FD00E04835 /* KFCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC2C2E327DE17FD00E04835 /* KFCTests.swift */; };
+		DCC2C2EE27DE17FD00E04835 /* KFCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC2C2ED27DE17FD00E04835 /* KFCUITests.swift */; };
+		DCC2C2F027DE17FD00E04835 /* KFCUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC2C2EF27DE17FD00E04835 /* KFCUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCC2C2E027DE17FD00E04835 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCC2C2C727DE17FA00E04835 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCC2C2CE27DE17FA00E04835;
+			remoteInfo = KFC;
+		};
+		DCC2C2EA27DE17FD00E04835 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCC2C2C727DE17FA00E04835 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCC2C2CE27DE17FA00E04835;
+			remoteInfo = KFC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCC2C2CF27DE17FA00E04835 /* KFC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KFC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC2C2D227DE17FA00E04835 /* KFCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFCApp.swift; sourceTree = "<group>"; };
+		DCC2C2D427DE17FA00E04835 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DCC2C2D627DE17FC00E04835 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCC2C2D927DE17FC00E04835 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DCC2C2DF27DE17FD00E04835 /* KFCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KFCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC2C2E327DE17FD00E04835 /* KFCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFCTests.swift; sourceTree = "<group>"; };
+		DCC2C2E927DE17FD00E04835 /* KFCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KFCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC2C2ED27DE17FD00E04835 /* KFCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFCUITests.swift; sourceTree = "<group>"; };
+		DCC2C2EF27DE17FD00E04835 /* KFCUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFCUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCC2C2CC27DE17FA00E04835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC2C2DC27DE17FD00E04835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC2C2E627DE17FD00E04835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCC2C2C627DE17FA00E04835 = {
+			isa = PBXGroup;
+			children = (
+				DCC2C2D127DE17FA00E04835 /* KFC */,
+				DCC2C2E227DE17FD00E04835 /* KFCTests */,
+				DCC2C2EC27DE17FD00E04835 /* KFCUITests */,
+				DCC2C2D027DE17FA00E04835 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCC2C2D027DE17FA00E04835 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCC2C2CF27DE17FA00E04835 /* KFC.app */,
+				DCC2C2DF27DE17FD00E04835 /* KFCTests.xctest */,
+				DCC2C2E927DE17FD00E04835 /* KFCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCC2C2D127DE17FA00E04835 /* KFC */ = {
+			isa = PBXGroup;
+			children = (
+				DCC2C2D227DE17FA00E04835 /* KFCApp.swift */,
+				DCC2C2D427DE17FA00E04835 /* ContentView.swift */,
+				DCC2C2D627DE17FC00E04835 /* Assets.xcassets */,
+				DCC2C2D827DE17FC00E04835 /* Preview Content */,
+			);
+			path = KFC;
+			sourceTree = "<group>";
+		};
+		DCC2C2D827DE17FC00E04835 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DCC2C2D927DE17FC00E04835 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DCC2C2E227DE17FD00E04835 /* KFCTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCC2C2E327DE17FD00E04835 /* KFCTests.swift */,
+			);
+			path = KFCTests;
+			sourceTree = "<group>";
+		};
+		DCC2C2EC27DE17FD00E04835 /* KFCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCC2C2ED27DE17FD00E04835 /* KFCUITests.swift */,
+				DCC2C2EF27DE17FD00E04835 /* KFCUITestsLaunchTests.swift */,
+			);
+			path = KFCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCC2C2CE27DE17FA00E04835 /* KFC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC2C2F327DE17FD00E04835 /* Build configuration list for PBXNativeTarget "KFC" */;
+			buildPhases = (
+				DCC2C2CB27DE17FA00E04835 /* Sources */,
+				DCC2C2CC27DE17FA00E04835 /* Frameworks */,
+				DCC2C2CD27DE17FA00E04835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KFC;
+			productName = KFC;
+			productReference = DCC2C2CF27DE17FA00E04835 /* KFC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCC2C2DE27DE17FD00E04835 /* KFCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC2C2F627DE17FD00E04835 /* Build configuration list for PBXNativeTarget "KFCTests" */;
+			buildPhases = (
+				DCC2C2DB27DE17FD00E04835 /* Sources */,
+				DCC2C2DC27DE17FD00E04835 /* Frameworks */,
+				DCC2C2DD27DE17FD00E04835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCC2C2E127DE17FD00E04835 /* PBXTargetDependency */,
+			);
+			name = KFCTests;
+			productName = KFCTests;
+			productReference = DCC2C2DF27DE17FD00E04835 /* KFCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCC2C2E827DE17FD00E04835 /* KFCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC2C2F927DE17FD00E04835 /* Build configuration list for PBXNativeTarget "KFCUITests" */;
+			buildPhases = (
+				DCC2C2E527DE17FD00E04835 /* Sources */,
+				DCC2C2E627DE17FD00E04835 /* Frameworks */,
+				DCC2C2E727DE17FD00E04835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCC2C2EB27DE17FD00E04835 /* PBXTargetDependency */,
+			);
+			name = KFCUITests;
+			productName = KFCUITests;
+			productReference = DCC2C2E927DE17FD00E04835 /* KFCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCC2C2C727DE17FA00E04835 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					DCC2C2CE27DE17FA00E04835 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					DCC2C2DE27DE17FD00E04835 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = DCC2C2CE27DE17FA00E04835;
+					};
+					DCC2C2E827DE17FD00E04835 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = DCC2C2CE27DE17FA00E04835;
+					};
+				};
+			};
+			buildConfigurationList = DCC2C2CA27DE17FA00E04835 /* Build configuration list for PBXProject "KFC" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCC2C2C627DE17FA00E04835;
+			productRefGroup = DCC2C2D027DE17FA00E04835 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCC2C2CE27DE17FA00E04835 /* KFC */,
+				DCC2C2DE27DE17FD00E04835 /* KFCTests */,
+				DCC2C2E827DE17FD00E04835 /* KFCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCC2C2CD27DE17FA00E04835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC2C2DA27DE17FC00E04835 /* Preview Assets.xcassets in Resources */,
+				DCC2C2D727DE17FC00E04835 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC2C2DD27DE17FD00E04835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC2C2E727DE17FD00E04835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCC2C2CB27DE17FA00E04835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC2C2D527DE17FA00E04835 /* ContentView.swift in Sources */,
+				DCC2C2D327DE17FA00E04835 /* KFCApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC2C2DB27DE17FD00E04835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC2C2E427DE17FD00E04835 /* KFCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC2C2E527DE17FD00E04835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC2C2EE27DE17FD00E04835 /* KFCUITests.swift in Sources */,
+				DCC2C2F027DE17FD00E04835 /* KFCUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCC2C2E127DE17FD00E04835 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCC2C2CE27DE17FA00E04835 /* KFC */;
+			targetProxy = DCC2C2E027DE17FD00E04835 /* PBXContainerItemProxy */;
+		};
+		DCC2C2EB27DE17FD00E04835 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCC2C2CE27DE17FA00E04835 /* KFC */;
+			targetProxy = DCC2C2EA27DE17FD00E04835 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DCC2C2F127DE17FD00E04835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCC2C2F227DE17FD00E04835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCC2C2F427DE17FD00E04835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KFC/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yaqoub.com.KFC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCC2C2F527DE17FD00E04835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KFC/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yaqoub.com.KFC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCC2C2F727DE17FD00E04835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yaqoub.com.KFCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KFC.app/KFC";
+			};
+			name = Debug;
+		};
+		DCC2C2F827DE17FD00E04835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yaqoub.com.KFCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KFC.app/KFC";
+			};
+			name = Release;
+		};
+		DCC2C2FA27DE17FD00E04835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yaqoub.com.KFCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KFC;
+			};
+			name = Debug;
+		};
+		DCC2C2FB27DE17FD00E04835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yaqoub.com.KFCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KFC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCC2C2CA27DE17FA00E04835 /* Build configuration list for PBXProject "KFC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC2C2F127DE17FD00E04835 /* Debug */,
+				DCC2C2F227DE17FD00E04835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC2C2F327DE17FD00E04835 /* Build configuration list for PBXNativeTarget "KFC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC2C2F427DE17FD00E04835 /* Debug */,
+				DCC2C2F527DE17FD00E04835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC2C2F627DE17FD00E04835 /* Build configuration list for PBXNativeTarget "KFCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC2C2F727DE17FD00E04835 /* Debug */,
+				DCC2C2F827DE17FD00E04835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC2C2F927DE17FD00E04835 /* Build configuration list for PBXNativeTarget "KFCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC2C2FA27DE17FD00E04835 /* Debug */,
+				DCC2C2FB27DE17FD00E04835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCC2C2C727DE17FA00E04835 /* Project object */;
+}
