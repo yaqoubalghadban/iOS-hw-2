@@ -42,7 +42,7 @@ struct ContentView: View {
                 Text(men)
                     .font(.title)
                     .fontWeight(.regular)
-                HStack{
+                HStack(spacing:30){
                     Stepper("\(c1) ", value: $c1,in: 0...12)
                 Spacer()
                     VStack{
@@ -61,7 +61,7 @@ struct ContentView: View {
                     
                 }//hstack1
                 
-                HStack{
+                HStack(spacing:25){
                     Stepper("\(c3) ", value: $c3,in: 0...12)
                     Spacer()
                     VStack{
@@ -76,7 +76,7 @@ struct ContentView: View {
                         .scaledToFit()
                 }//hstack2
                 
-                HStack{
+                HStack(spacing:42){
                     Stepper("\(c4)", value: $c4,in: 0...12)
                     Spacer()
                     VStack{
@@ -91,7 +91,8 @@ struct ContentView: View {
                         .frame(width: 80, height: 80)
                     .scaledToFit()            }//hstack3
                 
-                HStack{
+                HStack(spacing:38){
+                    
                     Stepper("\(c5) ", value: $c5,in: 0...12)
                     Spacer()
                     VStack{
@@ -107,7 +108,7 @@ struct ContentView: View {
                         .scaledToFit()
                 }//hstack4
                 
-                HStack{
+                HStack(spacing:43){
                     Stepper("\(c2)", value: $c2,in: 0...12)
                     Spacer()
                     VStack{
@@ -142,7 +143,7 @@ struct ContentView: View {
                             let p4 = Popcorn * Double(c4)
                             let p5 = Cola * Double(c5)
                             amount = p1 + p2 + p3 + p4 + p5
-                            
+                            print(amount)
                             if (amount <= Double(money) ?? 0){
                                 men = "تم اللطلب ،بالعافيه"
                             }//if
